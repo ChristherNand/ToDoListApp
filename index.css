@@ -1,0 +1,22 @@
+ul#todoList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#todoList li.task {
+    padding: 10px 0;
+}
+
+ul#todoList li.task span {
+    color: red;
+    font-weight: bold;
+    margin-left: 8px;
+    cursor: pointer;
+    opacity: .5;
+    transition: opacity .5s;
+}
+
+ul#todoList li.task span:hover {
+    opacity: 1;
+}
